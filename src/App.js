@@ -147,7 +147,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
-        <Route exact path="/about" component={Privacy} />
+        <Route exact path="/about" component={AboutUs} />
         <Route exact path="/services" component={Services} />
         <Route exact path="/products" component={Products} />
         <Route exact path="/careers" component={Careers} />

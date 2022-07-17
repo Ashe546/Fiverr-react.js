@@ -59,6 +59,8 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
+
+              {/* Changed this to the app.js file */}
               {/* <Router>
                 <Switch>
                   <Route exact path="/Terms" component={term} />
