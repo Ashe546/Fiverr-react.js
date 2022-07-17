@@ -1,0 +1,25 @@
+.whatsapp_widget_chat_wrapper_inner{
+    background-color: rgb(57, 54, 54) !important;
+}
+.whatsapp_widget_chat_wrapper_inner div{
+    color: rgb(244, 242, 241) !important;
+}
+.whatsapp_widget_pop{
+    box-shadow: -2px 4px 0px 0px var(--color-purple) !important;
+}
+.whatsapp_widget_wrapper{
+    z-index: 99 !important
+}
+.whatsapp_widget_pop.close{
+    display: none !important;
+}
+.whatsapp_widget_pop_open{
+    display: block !important;
+}
+.whatsapp_widget_header_icon img{
+    border-radius: 100%;
+}
+.whatsapp_widget_icon{
+    background: var(--green) !important;
+    border: 2px solid rgb(227, 207, 239) !important;
+}
