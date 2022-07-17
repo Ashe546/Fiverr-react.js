@@ -3,7 +3,6 @@
   "homepage": ".",
   "version": "1.0.0",
   "engines" : { 
-    "npm" : ">=7.0.0",
     "node": "16.15.0"
   },
   "description": "Code for a responsive navigation bar to go with my code-along blog",
