@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img from "../assets/img/con.png";
+import img from "../assets/img/cone.png";
 //import GoogleMapReact from "google-map-react";
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
