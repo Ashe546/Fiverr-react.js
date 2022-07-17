@@ -11,7 +11,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css"
 
 const terms = () => {
-  <h1>testing</h1>
+  return (
+    <>
+    <h1>This is the terms and policy page</h1>
+    <Footer />
+    </>
+  )
 };
 
 export default terms;

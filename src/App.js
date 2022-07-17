@@ -11,7 +11,8 @@ import Products from "./pages/products";
 import Careers from "./pages/careers";
 import Contacted from "./pages/contacted";
 import Subscribed from "./pages/subscribed";
-// import Privacy from "./pages/Privacy";
+import Privacy from "./pages/Privacy";
+import Terms from "./components/term";
 
 import Home from "./pages/home";
 import "./header/header.css";
@@ -146,7 +147,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
-        <Route exact path="/about" component={AboutUs} />
+        <Route exact path="/about" component={Privacy} />
         <Route exact path="/services" component={Services} />
         <Route exact path="/products" component={Products} />
         <Route exact path="/careers" component={Careers} />
@@ -154,8 +155,8 @@ export default function App() {
         <Route exact path="/subscribed" component={Subscribed} />
 
         
-        {/* <Route exact path="/terms" component={Terms}/> */}
-        {/* <Route exact path="/privacy" component={Privacy} /> */}
+        <Route exact path="/terms" component={Terms}/>
+        <Route exact path="/privecy" component={Privacy} />
         {/* <Route exact path="/contact" component={Contacted} />
 
         <Route exact path="/subscribe" component={Subscribed} /> */}

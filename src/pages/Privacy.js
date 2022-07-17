@@ -14,7 +14,7 @@ const Privacy = () => {
 
   return (
     <div>
-      <section>Hello</section>
+      <section>This is the privacy page</section>
       <Footer />
     </div>
   );

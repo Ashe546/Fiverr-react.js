@@ -7,9 +7,9 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import "./footer.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import term from "./term";
-//import Terms from "../pages/Terms";
-import Privacy from "../pages/Privacy";
+// import term from "./term";
+// import Terms from "../pages/Terms";
+// import Privacy from "../pages/Privacy";
 
 const Footer = () => {
   return (
@@ -54,17 +54,17 @@ const Footer = () => {
                       <Link to={"/terms"}>Terms of Service</Link>
                     </li>
                     <li>
-                      <Link to={"/Privacy"}>Privacy Policy</Link>
+                      <Link to={"/privecy"}>Privacy Policy</Link>
                     </li>
                   </ul>
                 </div>
               </div>
-              <Router>
+              {/* <Router>
                 <Switch>
                   <Route exact path="/Terms" component={term} />
                   <Route exact path="/Privacy" component={Privacy} />
                 </Switch>
-              </Router>
+              </Router> */}
 
               <div className="col-lg-3 col-md-6">
                 <div className="single-footer-widget">
